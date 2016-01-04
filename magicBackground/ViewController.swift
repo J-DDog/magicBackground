@@ -10,9 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var redColor = CGFloat(Double(0.5))
-    var greenColor = CGFloat(Double(0.5))
-    var blueColor = CGFloat(Double(0.5))
+    var redColor = CGFloat(Double(1.0))
+    var greenColor = CGFloat(Double(1.0))
+    var blueColor = CGFloat(Double(1.0))
     var opa = CGFloat(Double(1.0))
     
     @IBOutlet weak var redSlider: UISlider!

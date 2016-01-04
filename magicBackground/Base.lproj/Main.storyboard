@@ -17,19 +17,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0zr-cg-osZ" userLabel="Red Slider">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0zr-cg-osZ" userLabel="Red Slider">
                                 <rect key="frame" x="241" y="131" width="118" height="31"/>
                                 <connections>
                                     <action selector="redSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="0xt-dL-7KM"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="fhe-ed-MXw" userLabel="Green Slider">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="fhe-ed-MXw" userLabel="Green Slider">
                                 <rect key="frame" x="241" y="209" width="118" height="31"/>
                                 <connections>
                                     <action selector="greenSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="w6t-cn-qSz"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="XI3-wB-TwR" userLabel="Blue Slider">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="XI3-wB-TwR" userLabel="Blue Slider">
                                 <rect key="frame" x="241" y="285" width="118" height="31"/>
                                 <connections>
                                     <action selector="blueSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="uB7-QP-ERO"/>
